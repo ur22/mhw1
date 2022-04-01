@@ -1,0 +1,195 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  font-family: 'Pathway Gothic One', sans-serif;
+  height: 25px;
+  padding: 10px;
+}
+
+a{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+ 
+  background-color: rgb(54,150,155);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+
+header{
+  color: white;
+  background-image: url(header.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+ 
+ 
+}
+
+#overlay{
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+
+
+#title{
+ height: 500px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+
+#title p{
+  display: inline-block;
+  text-align: center;
+  width: 780px;
+  z-index: 1;
+  font-size: 50px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+
+@media (max-width: 500px) {
+#title p{
+    width: 400px;
+  }
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin-top: -50px;
+ 
+  
+}
+
+.profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+
+}
+
+.profile h1{
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(54,150,155);
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+
+
+#articolo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0px auto 0px auto;
+}
+
+#articolo section{
+  display: flex;
+flex-direction: row;
+}
+
+section .main{
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+}
+
+
+section .num{
+  font-size: 30px;
+  color: hotpink;
+ padding-right: 20px;
+  margin-top: 70px;
+ font-weight: bold;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+@media (max-width: 500px) {
+  #articolo {
+    width: 90%;
+  }
+}
+
+
+.main h2{
+ font-weight: normal;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: 'Pathway Gothic One', sans-serif;
+ font-size: 40px;
+}
+
+.main h3{
+ font-weight: normal;
+ margin-top: 10px;
+ margin-bottom: 0px;
+ font-family: 'Pathway Gothic One', sans-serif;
+ color: hotpink;
+  font-size: 20px;
+}
+
+
+
+.main p{
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+}
+
+
+.main img{
+ display: flex;
+ width: 50%;
+ justify-content: center;
+ border-radius: 5%;
+ margin: 30px auto;
+ 
+}
+
+
+
+
+
+
+footer{
+  background-color:rgb(54,150,155);
+  height: 40px;
+  text-align: center;
+ 
+}
+
+footer p{
+color: white;
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 25px;
+ 
+}
